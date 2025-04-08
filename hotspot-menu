@@ -2,6 +2,7 @@
 
 #main menu for hotspot tools
 #20200221 km4ack
+#20250408 headbanger666mark
 
 DIR=$HOME/hotspot-tools-lite
 VER=$(cat $DIR/changelog | grep version= | sed 's/version=//')
@@ -33,7 +34,7 @@ fi
 
 
 clear;echo
-echo "Hotspot Tools v"$VER" by KM4ACK"
+echo "Hotspot Tools v"$VER" by HEADY"
 echo 
 echo "------HOTSPOT PARAMETERS------"
 echo "   Status   "$HS
